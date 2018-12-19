@@ -39,10 +39,11 @@ baidu_tongji_id: ad8891bb4dd1b0ae32fdcb667d118585
 google_analytics_id: UA-131188403-1 # google 分析追踪id
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 
-redcarpet:
-    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # port
 # url
